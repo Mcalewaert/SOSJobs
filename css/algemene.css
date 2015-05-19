@@ -1,0 +1,29 @@
+* {
+    padding:0;
+    margin:0;
+}
+body{
+    font-size: 36pt;
+    font-family: lato;
+    font-weight: 300;
+}
+
+header {
+    background-color: #48CFAD;
+    color:white;
+    height:127px;
+    text-align: center;
+    font-size:48pt;  
+    vertical-align: middle;
+    line-height: 127px;
+    font-weight:400;
+}
+.content {
+    margin-left:4%;
+}
+h2{
+    color: #48CFAD;
+    font-size: 40pt;
+    font-weight:400;
+}
+    
