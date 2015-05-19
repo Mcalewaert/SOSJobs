@@ -1,33 +1,36 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding:0;
+    margin:0;
 }
 
-body {
-    font-size: 36pt;
-    font-family: lato;
+body{
+    font-size: 1em;
+    font-family: Lato;
     font-weight: 300;
 }
 
 header {
     background-color: #48CFAD;
-    color: white;
-    height: 127px;
+    color:white;
+    height:50px;
     text-align: center;
-    font-size: 48pt;
     vertical-align: middle;
-    line-height: 127px;
-    font-weight: 400;
+    line-height: 50px;
+    font-weight:400;
+}
+
+h1{
+   font-size:1.5em;   
 }
 
 .content {
-    margin-left: 4%;
+    margin-left:4%;
 }
 
-h2 {
+h2{
     color: #48CFAD;
-    font-size: 40pt;
-    font-weight: 400;
+    font-size: 1.2em;
+    font-weight:400;
 }
 
 #hoofdNav {
@@ -43,7 +46,7 @@ h2 {
 }
 
 #hoofdNav ul {
-    height: 150px;
+    height: 50px;
     padding: 0;
     list-style-type: none;
     width: 100%;
@@ -54,7 +57,7 @@ h2 {
     width: 25%;
     display: inline-block;
     text-align: center;
-    height: 150px;
+    height: 50px;
     float: left;
     margin-left: auto;
 }
@@ -65,23 +68,23 @@ h2 {
     color:#48CFAD;
 }
 .icon-vac {
-    font-size: 150%;
-    margin-top: 40px;
+    font-size: 1.5em;
+    margin-top: 10px;
 }
 
 .icon-berichten {
-    font-size: 200%;
-    margin-top: 30px;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon-groepen {
-    font-size: 140%;
-    margin-top: 40px;
+    font-size: 1.4em;
+    margin-top: 12px;
 }
 
 .icon-nav {
-    font-size: 110%;
-    margin-top: 45px;
+    font-size: 1.1em;
+    margin-top: 15px;
 }
 
 .main {
@@ -90,5 +93,6 @@ h2 {
 }
 
 .wrapper {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
+    

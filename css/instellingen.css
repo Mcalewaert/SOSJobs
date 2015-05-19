@@ -1,60 +1,40 @@
-* {
-    padding: O;
-    margin: 0;
-}
-
-body{
-    margin:0;
-    font-size: 36pt;
-    font-family: lato;
-    font-weight:300;
-    
-}
-header {
-    background-color: #48CFAD;
-    color:white;
-    height:127px;
-    text-align: center;
-    font-size:48pt;  
-    vertical-align: middle;
-    line-height: 127px;
-    font-weight:400;
-}
 img{
-    width:100px;
-    height:100px;
+    width:30px;
+    height:30px;
     border-radius:50%;
     float:left;
-    margin-top:25px;
+    margin-top:10px;
     margin-left:4%;
     margin-right:2%;
 }
+
 .profile {
-    height:150px;
-    line-height: 150px;
+    height: 50px;
+    line-height: 50px;
     border-bottom: solid 1px #48CFAD;
 }
+
 .noborderline{
     border-bottom: 0;
 }
+
 h2{
-    color: #48CFAD;
-    font-size: 40pt;
     margin-left:4%;
-    font-weight:400;
 }
+
 #afmelden {
     background-color: #DA4453;
-    height:127px;
+    height: 50px;
     text-align: center;
     vertical-align: middle;
-    line-height:127px;
+    line-height: 50px;
     color:white;
     font-weight:400;
-    margin-top:50px
+    margin-top:20px
 }
+
 .lower{
-    margin-top:100px;
+    margin-top:30px;
 }
     
 

@@ -1,14 +1,14 @@
 .logo{
-    width: 350px;
-    height: 350px;
+    width: 120px;
+    height: 120px;
     display: block;
-    margin: 150px auto 200px;
+    margin: 50px auto 80px;
 }
 
 input{
     display: block;
-    margin: 30px auto;
-    padding: 20px 0;
+    margin: 10px auto;
+    padding: 5px 0;
     width: 90%;
     font-size: 1em;
     color: #48CFAD;
@@ -26,7 +26,7 @@ a.accountLink{
     color: #808080;
     display: block;
     float: right;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 5%;
     clear: right;
 }
@@ -39,7 +39,7 @@ a.accountLink{
     width: 90%;
     margin: 0 auto 50px;
     text-align: center;
-    padding: 21px 0;
+    padding: 6px 0;
     border: 1px solid #3b5998;
 }
 
@@ -52,6 +52,6 @@ a.accountLink{
     width: 100%;
     text-align: center;
     text-decoration: none;
-    padding: 30px 0;
-    margin-top: 300px;
+    padding: 10px 0;
+    margin-top: 130px;
 } 
