@@ -2,29 +2,87 @@
     padding:0;
     margin:0;
 }
-body{
-    font-size: 3em;
-    font-family: Lato;
+body {
+    font-size: 36pt;
+    font-family: lato;
     font-weight: 300;
 }
 
 header {
     background-color: #48CFAD;
-    color:white;
-    height:127px;
+    color: white;
+    height: 127px;
     text-align: center;
-    font-size:48pt;  
+    font-size: 48pt;
     vertical-align: middle;
     line-height: 127px;
-    font-weight:400;
-}
-.content {
-    margin-left:4%;
+    font-weight: 400;
 }
 
-h2{
-    color: #48CFAD;
-    font-size: 1.2em;
-    font-weight:400;
+.content {
+    margin-left: 4%;
 }
-    
+
+h2 {
+    color: #48CFAD;
+    font-size: 40pt;
+    font-weight: 400;
+}
+
+#hoofdNav {
+    color: #48CFAD;
+    width: 100%;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    border-top: 1px solid #48CFAD;
+    background-color: white;
+}
+
+#hoofdNav ul {
+    height: 150px;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    margin: auto;
+}
+
+#hoofdNav li {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    height: 150px;
+    float: left;
+    margin-left: auto;
+}
+
+.icon-vac {
+    font-size: 150%;
+    margin-top: 40px;
+}
+
+.icon-berichten {
+    font-size: 150%;
+    margin-top: 40px;
+}
+
+.icon-groepen {
+    font-size: 140%;
+    margin-top: 40px;
+}
+
+.icon-nav {
+    font-size: 110%;
+    margin-top: 45px;
+}
+
+.main {
+    color: white;
+    background-color: #48CFAD;
+}
+
+.wrapper {
+    margin-bottom: 150px;
+}
