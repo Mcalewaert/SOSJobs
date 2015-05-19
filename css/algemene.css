@@ -3,8 +3,8 @@
     margin:0;
 }
 body{
-    font-size: 36pt;
-    font-family: lato;
+    font-size: 3em;
+    font-family: Lato;
     font-weight: 300;
 }
 
@@ -21,9 +21,10 @@ header {
 .content {
     margin-left:4%;
 }
+
 h2{
     color: #48CFAD;
-    font-size: 40pt;
+    font-size: 1.2em;
     font-weight:400;
 }
     

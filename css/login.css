@@ -1,0 +1,56 @@
+.logo{
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: 150px auto 200px;
+}
+
+input{
+    display: block;
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    font-size: 1em;
+    color: #48CFAD;
+    background-color: #f5f7fa;
+    border: 1px solid #48CFAD;
+}
+
+input.error{
+    border: 3px solid #DA4453;
+}
+
+a.accountLink{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #808080;
+    display: block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5%;
+    clear: right;
+}
+
+.facebookLogin{
+    background-color: #3B5998;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    width: 90%;
+    margin: 0 auto 50px;
+    text-align: center;
+    padding: 21px;
+}
+
+.login{
+    clear: both;
+    display: block;
+    font-size: 1.2em;
+    color: #FFF;
+    background-color: #48CFAD;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 0;
+    margin-top: 300px;
+} 
