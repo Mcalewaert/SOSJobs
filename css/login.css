@@ -1,11 +1,11 @@
-.logo{
+.logo {
     width: 120px;
     height: 120px;
     display: block;
     margin: 50px auto 80px;
 }
 
-input{
+input {
     display: block;
     margin: 10px auto;
     padding: 5px 0;
@@ -16,11 +16,11 @@ input{
     border: 1px solid #48CFAD;
 }
 
-input.error{
+input.error {
     border: 1px solid #DA4453;
 }
 
-a.accountLink{
+a.accountLink {
     font-size: 0.8em;
     text-decoration: none;
     color: #808080;
@@ -31,19 +31,19 @@ a.accountLink{
     clear: right;
 }
 
-.facebookLogin{
-    background-color: #3B5998;
+.facebookLogin {
+    background-color: #48CFAD;
     color: #FFF;
     text-decoration: none;
     display: block;
-    width: 90%;
-    margin: 0 auto 50px;
-    text-align: center;
-    padding: 6px 0;
-    border: 1px solid #3b5998;
+    width: 100%;
+    margin: 0 0 50px;
+    border: 1px solid #48CFAD;
+    margin-top: 10px;
+    padding: 10px 0;
 }
 
-.login{
+.login {
     clear: both;
     display: block;
     font-size: 1.2em;
@@ -54,4 +54,12 @@ a.accountLink{
     text-decoration: none;
     padding: 10px 0;
     margin-top: 130px;
-} 
+}
+
+.fbIcoon {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 23%;
+}
