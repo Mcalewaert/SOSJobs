@@ -57,12 +57,10 @@ header{
 .optieKnop{
     position:absolute;
     left:80%;
-    width:20px;
-    height:20px;
+    width:20%;
+    height:50px;
+    top:0;
 }
 .optieKnop img{
-    position: absolute;
-    left:88%;
-    top:17px;
     width:5px;
 }
