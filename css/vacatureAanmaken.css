@@ -1,0 +1,25 @@
+.aanmaken{
+    font-size: 1.2em;
+    font-weight:400;
+    margin-bottom: 50px;
+}
+
+.aanmaken p{
+    padding: 50px 0;
+    color: #48CFAD;
+    background-color: #EEF3F5;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.aanmaken span{
+    margin-right:4%;
+}
+
+.template p{
+    background-color: #EEF3F5;
+    text-align: center;
+    margin: 40px 0;
+    padding: 30px 0;
+
+}

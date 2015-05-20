@@ -1,14 +1,31 @@
+jQuery(document).ready(function ($) {
 
-$( document ).ready(function() {
-console.log("ok");
-    $(".optieKnop").click(function () {
-         console.log("ok");   
-        $(".orden").animate({display:"block"},400);
+var open = false;
+    
 
-        },
-        function () {
-        console.log("ok");
-            $(".orden").hide();
+    $(".optieKnop").click(function () {  
+    if(open ==false){
+    $(".orden").slideDown();
+    open = true;
+    }
+        
+    else if(open ==true){
+    $(".orden").slideUp();
+    open = false;
+    }    
+        
+        
     })
-});
+    
+    
+    $(".klik").click(function () {
+    if(open==true){
+    $(".orden").slideUp();
+    }
+    })
+    
 
+       
+       
+       
+        });
