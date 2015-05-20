@@ -9,15 +9,15 @@ $(function(){
         console.log('swipeleft');
         $listItemsSwiped.animate({
             width: '0'
-        },200,'linear');
+        },200,'easeInOutQuad');
         $(this).parent().find('.sliderOnTop').animate({
             width: '40%'
-        },200,'linear');
+        },600,'easeOutBounce');
     });
     $listItems.on("swiperight", function(e){
         $listItemsSwiped.animate({
             width: '0'
-        },200,'linear');
+        },200,'easeInOutQuad');
     });
     
     
