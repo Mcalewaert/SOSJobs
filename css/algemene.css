@@ -12,12 +12,13 @@ body{
 header {
     background-color: #48CFAD;
     color:white;
-    height:100px;
+    height:50px;
     text-align: center;
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 50px;
     font-weight:400;
     font-size:2em;
+    margin-bottom:50px;
 }
 
 h1{
@@ -95,5 +96,9 @@ h2{
 
 .wrapper {
     margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color:black;
 }
     

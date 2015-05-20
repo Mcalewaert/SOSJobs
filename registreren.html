@@ -4,16 +4,18 @@
     
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Registreren</title>
     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
     <link href="css/algemene.css" rel="stylesheet">
     <link href="css/registreren.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <script src="js/registreren.js"></script>
 </head>
     
 <body>
     <img src="img/LOGO2.png" alt="Logo SosJobs">
-    <p>Werkgever</p>
+    <div class="midden">
+    <p id="student">Student</p>
     <!--https://proto.io/freebies/onoff/-->
     <div class="onoffswitch">
     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
@@ -24,13 +26,25 @@
 </div>
     
     
-    <p>Student</p>
-    <form>
-        <input placeholder="Naam">
-        <input placeholder="Voornaam">
-        <input placeholder="Email">
-        <input placeholder="Paswoord">
-        <input placeholder="Rijksregisternummer">
+    <p id="werkgever">Werkgever</p>
+    </div>
+    <form id="studentform" autocomplete="on">
+        <input type="text" placeholder="Naam">
+        <input type="text" placeholder="Voornaam">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Wachtwoord">
+        <input type="password" placeholder="Bevestig wachtwoord">
+        <input type="number" placeholder="Rijksregisternummer">
+    
+    
+    </form>
+    <form id="werkgeverform" autocomplete="on">
+        <input type="text" placeholder="Bedrijfsnaam">
+        <input type="number" placeholder="BTW-Nummer">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Wachtwoord">
+        <input type="password" placeholder="Bevestig wachtwoord">
+        
     
     
     </form>

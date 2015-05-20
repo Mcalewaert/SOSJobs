@@ -1,0 +1,19 @@
+body{
+    font-size:0.8em;
+}
+h2{
+    margin-bottom: 30px;
+    width:90%;
+    margin-left:5%;
+    
+}
+p{
+    width:90%;
+    margin-left:5%;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    font-weight:400;
+    color: #48CFAD;
+}

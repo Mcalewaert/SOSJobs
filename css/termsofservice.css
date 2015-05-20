@@ -1,0 +1,26 @@
+body{
+    font-size:0.8em;
+}
+h1{    
+    margin-bottom: 30px;
+    width:90%;
+    margin-left:5%;
+    color: #48CFAD;
+    
+}
+p{
+    width:90%;
+    margin-left: 5%;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+strong{
+    color: #48CFAD;
+}
+p strong{
+    margin-top:20px;
+}
+.strong{
+    margin-top:30px;
+    margin-bottom:10px;
+}
