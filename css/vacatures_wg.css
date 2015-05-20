@@ -1,0 +1,98 @@
+div.vacatures header{
+    background: rgba(0,0,0,0);
+    padding: 0;
+    margin: 0;
+}
+.vacatures header h2{
+    font-size: .75em;
+    font-weight: 200;
+}
+
+#list{
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#list > li{
+    background-color: #EEF3F5;
+    position: relative;
+    margin: .8em 0;
+    width: 100%;
+    min-height: 6em;
+}
+
+.sliderOnTop{
+    background: #DA4453;
+    color: #efefef;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    
+    width: 0;
+    overflow: hidden;
+}
+.sliderOnTop ul{
+    text-align: center;
+    list-style-type: none;
+    height: 100%;
+}
+.sliderOnTop ul li{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.sliderOnTop ul li:hover{
+    cursor: pointer;
+    background-color: #f66;
+}
+.sliderOnTop ul li img{
+    width: 1.5em;
+    vertical-align: middle;
+}
+.sliderUnder{
+    position: relative;
+    height: 100%;
+}
+.sliderUnder .text{
+    padding: 1.25em 0;
+    margin: 0 0 0 5%;
+    color: #555;
+    width: 75%;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.sliderUnder .text h1{
+    margin: 0 0 1em;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.sliderUnder .text p{
+    color: #777;
+}
+.sliderUnder .messages{
+    display: block;
+    width: 20%;
+    float: right;
+    position: relative;
+}
+.sliderUnder .messages p{
+    display: block;
+    color: #fff;
+    background: #DA4453;
+    border-radius: 100px;
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    top: 2.5em;
+    right: 2.5em;
+}
+
+
+
+
