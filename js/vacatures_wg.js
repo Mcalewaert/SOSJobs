@@ -19,14 +19,14 @@ $(function(){
         }
         else{
             // RESET ALL ORIGINAL POSITIONS
-            $listItemsText.animate({margin:'0 0 0 5%'},200,'easeInOutQuad');
-            $listItemsSwiped.animate({width:'0'},200,'easeInOutQuad');
+            $listItemsText.animate({margin:'0 0 0 5%'},100,'easeInOutQuad');
+            $listItemsSwiped.animate({width:'0'},100,'easeInOutQuad');
             $listItemIcons.animate({opacity:'0'},100,'linear');
 
             // MOVE SWIPED ITEM
             $listItemIcons.animate({opacity:'1'},100,'linear');
-            $(this).parent().find('.sliderUnder .text').animate({margin:'0 0 0 -15%'},400,'easeOutBounce');
-            $(this).parent().find('.sliderOnTop').animate({width: '40%'},400,'easeOutBounce');
+            $(this).parent().find('.sliderUnder .text').animate({margin:'0 0 0 -15%'},200,'easeInOutQuad');
+            $(this).parent().find('.sliderOnTop').animate({width: '50%'},200,'easeInOutQuad');
         }
         
     });

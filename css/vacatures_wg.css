@@ -4,6 +4,24 @@ body{
 
 header{
     margin-bottom: 0;
+    vertical-align: middle;
+}
+header h1{
+    float:left;
+    margin-left:25%;
+    width: 50%;
+}
+header a img{
+    vertical-align: middle;
+    line-height:100px;
+    margin: 0;
+    padding: 0;
+}
+.new{
+    height:80%;
+    float:right;
+    margin-right:12px;
+    margin-top:12px;
 }
 
 div.vacatures header{
@@ -89,8 +107,12 @@ div.vacatures header{
 .sliderUnder .messages{
     display: block;
     width: 20%;
+    height: 100%;
+    min-height: 6.3em;
     float: right;
     position: relative;
+    background: url(../img/msg.png) no-repeat right;
+    background-size: 2em;
 }
 .sliderUnder .messages p{
     display: block;
