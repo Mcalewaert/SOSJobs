@@ -6,9 +6,8 @@ $(function(){
     
     var $msgBlock = $('#list .vacature .sliderUnder .messages');
     
-    var height = $vacatures.css('height');
-    $msgBlock.css('height',height);
-    console.log(height + ", " + $msgBlock.css('height'));
+    /*var height = $vacatures.css('height');
+    $msgBlock.css('height',height);*/
     
     
     
