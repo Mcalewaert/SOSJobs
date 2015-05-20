@@ -40,12 +40,13 @@ header{
     font-weight: 300;
     width:100%;
     margin-bottom:2px;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgb(42,177,143);
 }
 .klik{
     width:100%;
     height:100vh;
     position: fixed;
+    display:none;
 
 }
 .editKnop{
