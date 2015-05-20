@@ -1,45 +1,57 @@
-
 header a img{
     vertical-align: middle;
-    line-height:100px;
+    line-height:30px;
 }
+
 h1{
-    float:left;
-    margin-left:33%
+    font-size: 0.8em;
+    margin: 0 auto;
+    width: 60%;
+    overflow: hidden;
 }
+
 header{
-    margin-bottom:50px;
+    margin-bottom:12px;
 }
+
 .edit{
     text-align: left;
-    float:left;
     vertical-align: middle;
-    height:80%;
-    margin-top:12px;
-    margin-left:12px;
+    position:absolute;
+    left: 5%;
+    top: 10px;
+    width:30px;
 }
+
 .remove{
-    height:80%;
-    float:right;
-    margin-right:12px;
-    margin-top:12px;
+    position: absolute;
+    left:85%;
+    top: 10px;
+    width:30px;
 }
+
 h3:first-child{
     float:left;
     display:block;
     width:30%;
-    margin-bottom:40px;
+    margin-bottom:12px;
 }
+
 h3:last-child {
     display:block;
-    margin-bottom:20px;
+    margin-bottom:6px;
     width:19%;
 }
+
 #vacatureimg{
     width:90%;
     margin-left:5%;
-    height:400px;
+    height:200px;
     
+}
+
+.jobvacature{
+    margin: 20px;
 }
 
 ul li{
@@ -55,78 +67,71 @@ ul li{
     padding-right:5%;
     border-bottom: 1px solid #48CFAD;
     margin-left:0;
-    padding-bottom:80px;
+    padding-bottom:25px;
     
 }
+
 .noborderline{
     border-bottom:0;
 }
+
 ul{
     margin-top:20px;
     padding-left: 5%;
 }
+
 .button{
     background-color: #48CFAD;
-    height:127px;
+    height:35px;
     text-align: center;
     vertical-align: middle;
-    line-height:127px;
+    line-height:35px;
     color:white;
     font-weight:400;
     margin-top:30px;
-    font-size:3em;
+    font-size:1.2em;
 }
+
 .red{
     background-color: #DA4453
 }
+
 .title img{
     float:left;
-    height:150px;
+    height:50px;
 }
+
 .title{
-    height:150px;
+    height:50px;
 }
+
 .title h2{
     vertical-align: middle;
-    line-height: 150px;
+    line-height: 50px;
     height:150px;
-    font-size:3em;
+    font-size:1.2em;
 }
+
 .item p{
     padding-left:5%;
 }
+
 .margintop{
     margin-top:50px;
 }
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.deadline{
+    margin-top: 10px;
+}
 
 
 .onoffswitch {
-    margin-top:20px;
+    margin-top:2px;
     margin-right:2%;
     margin-left:5%;
-    margin-bottom:40px;
+    margin-bottom:20px;
     float:left;
-    position: relative; width: 80px;
+    position: relative; width: 35px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
 .onoffswitch-checkbox {
@@ -134,7 +139,7 @@ ul{
 }
 .onoffswitch-label {
     display: block; overflow: hidden; cursor: pointer;
-    border: 2px solid #48CFAD; border-radius: 50px;
+    border: 2px solid #FFFFFF; border-radius: 50px;
 }
 .onoffswitch-inner {
     display: block; width: 200%; margin-left: -100%;
@@ -142,26 +147,26 @@ ul{
     -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
 }
 .onoffswitch-inner:before, .onoffswitch-inner:after {
-    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    display: block; float: left; width: 50%; height: 15px; padding: 0; line-height: 15px;
     font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 .onoffswitch-inner:before {
     content: "";
     padding-left: 10px;
-    background-color: #48CFAD; color: #FFFFFF;
+    background-color: #48CFAD; color: #808080;
 }
 .onoffswitch-inner:after {
     content: "";
     padding-right: 10px;
-    background-color: #999999; color: #999999;
+    background-color: #EEEEEE; color: #999999;
     text-align: right;
 }
 .onoffswitch-switch {
-    display: block; width: 25px; margin: 2.5px;
+    display: block; width: 5px; margin: 5px;
     background: #FFFFFF;
-    border: 2px solid #48CFAD; border-radius: 50px;
-    position: absolute; top: 0; bottom: 0; right: 46px;
+    border: 2px solid #FFFFFF; border-radius: 50px;
+    position: absolute; top: 0; bottom: 0; right: 16px;
     -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
     -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
 }
@@ -173,15 +178,12 @@ ul{
 }
 
 
-
-
-
 .onoffswitch2 {
+    margin-top: 2px;
     margin-left:5%;
     margin-right:2%;
     float:left;
-    
-    position: relative; width: 80px;
+    position: relative; width: 35px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
 .onoffswitch-checkbox2 {
@@ -189,7 +191,7 @@ ul{
 }
 .onoffswitch-label2 {
     display: block; overflow: hidden; cursor: pointer;
-    border: 2px solid #48CFAD; border-radius: 50px;
+    border: 2px solid #FFFFFF; border-radius: 50px;
 }
 .onoffswitch-inner2 {
     display: block; width: 200%; margin-left: -100%;
@@ -197,26 +199,26 @@ ul{
     -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
 }
 .onoffswitch-inner2:before, .onoffswitch-inner2:after {
-    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    display: block; float: left; width: 50%; height: 15px; padding: 0; line-height: 15px;
     font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 .onoffswitch-inner2:before {
     content: "";
     padding-left: 10px;
-    background-color: #48CFAD; color: #FFFFFF;
+    background-color: #48CFAD; color: #808080;
 }
 .onoffswitch-inner2:after {
     content: "";
     padding-right: 10px;
-    background-color: #999999; color: #999999;
+    background-color: #EEEEEE; color: #999999;
     text-align: right;
 }
 .onoffswitch-switch2 {
-    display: block; width: 25px; margin: 2.5px;
+    display: block; width: 5px; margin: 5px;
     background: #FFFFFF;
-    border: 2px solid #48CFAD; border-radius: 50px;
-    position: absolute; top: 0; bottom: 0; right: 46px;
+    border: 2px solid #FFFFFF; border-radius: 50px;
+    position: absolute; top: 0; bottom: 0; right: 16px;
     -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
     -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
 }
