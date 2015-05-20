@@ -2,6 +2,16 @@ $(function(){
     
     $.mobile.loading().hide();
     
+    var $vacatures = $('#list li');
+    
+    var $msgBlock = $('#list .vacature .sliderUnder .messages');
+    
+    var height = $vacatures.css('height');
+    $msgBlock.css('height',height);
+    console.log(height + ", " + $msgBlock.css('height'));
+    
+    
+    
     var $listItems = $('#list .sliderUnder');
     var $listItemsSwiped = $('#list .sliderOnTop');
     var $listItemsText = $('#list .sliderUnder .text');
