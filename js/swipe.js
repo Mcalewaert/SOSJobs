@@ -26,7 +26,7 @@ $(function(){
 
             // MOVE SWIPED ITEM
             $listItemIcons.animate({opacity:'1'},100,'linear');
-            $(this).animate({right:'+=10em'},200,'easeInOutQuad');
+            $(this).animate({right:'+=8em'},200,'easeInOutQuad');
         }
         
     });
