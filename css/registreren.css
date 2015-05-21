@@ -3,61 +3,53 @@ img{
     margin-left:auto;
     margin-right:auto;
     display:block;
-    margin-top:150px;
-    width:350px;
-    height:350px;
+    margin-top:50px;
+    width:120px;
+    height:120px;
 }
 #knop{
     background-color: #48CFAD;
     color:white;
-    height:127px;
+    height:40px;
     text-align: center;
-    font-size:48pt;
+    font-size:1.2em;
     vertical-align: middle;
-    line-height: 127px;
+    line-height: 40px;
     font-weight:400;
     margin:0;
-    margin-top:100px;
+    margin-top:30px;
 }
 .midden{
-    margin-top:50px;
-    margin-left:auto;
-    margin-right:auto;
-    width:90%;
-    height:100px;
+    display: inline-block;
+    margin: 20px 0 0 20%;
+    height:30px;
     
 }
 p{
     font-weight:400;
 }
 p:first-child{
-    margin-right:4%;
     box-sizing: border-box;
     display:block;
-    margin-left:auto;
-    float:left;
-    width:30%;
+    float: left;
 }
 p:last-child{
-    float:right;
     box-sizing: border-box;
-    width:30%;
     color: #48CFAD;
+    float: left;
 }
 
 input{
-    display:block;
-    height:76px;
-    width:100%;
-    margin-top:2%;
-    margin-bottom:2%;
-    border: solid 1px #808080;
-    border-radius:10px;
-    font-size: 36pt;
-    font-family:Lato;
-    color: #000000;
-    padding:20px;
-    
+    display: block;
+    margin: 10px auto;
+    padding: 5px 0;
+    width: 90%;
+    font-size: 1em;
+    color: #48CFAD;
+    background-color: #f5f7fa;
+    border: 1px solid #48CFAD;
+    border-radius: 2px;
+    text-indent: 10px;
 }
 
 form{
@@ -80,11 +72,12 @@ form{
 https://proto.io/freebies/onoff/
 
 */
+
+
 .onoffswitch {
-    margin-top:15px;
-    margin-left:12%;
+    margin: 0 5px;
     float:left;
-    position: relative; width: 80px;
+    position: relative; width: 35px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
 .onoffswitch-checkbox {
@@ -92,7 +85,7 @@ https://proto.io/freebies/onoff/
 }
 .onoffswitch-label {
     display: block; overflow: hidden; cursor: pointer;
-    border: 2px solid #48CFAD; border-radius: 50px;
+    border: 2px solid #FFFFFF; border-radius: 50px;
 }
 .onoffswitch-inner {
     display: block; width: 200%; margin-left: -100%;
@@ -100,26 +93,26 @@ https://proto.io/freebies/onoff/
     -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
 }
 .onoffswitch-inner:before, .onoffswitch-inner:after {
-    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    display: block; float: left; width: 50%; height: 15px; padding: 0; line-height: 15px;
     font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 .onoffswitch-inner:before {
     content: "";
     padding-left: 10px;
-    background-color: #48CFAD; color: #FFFFFF;
+    background-color: #48CFAD; color: #808080;
 }
 .onoffswitch-inner:after {
     content: "";
     padding-right: 10px;
-    background-color: #48CFAD; color: #999999;
+    background-color: #EEEEEE; color: #999999;
     text-align: right;
 }
 .onoffswitch-switch {
-    display: block; width: 25px; margin: 2.5px;
+    display: block; width: 5px; margin: 5px;
     background: #FFFFFF;
-    border: 2px solid #48CFAD; border-radius: 50px;
-    position: absolute; top: 0; bottom: 0; right: 46px;
+    border: 2px solid #FFFFFF; border-radius: 50px;
+    position: absolute; top: 0; bottom: 0; right: 16px;
     -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
     -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
 }
