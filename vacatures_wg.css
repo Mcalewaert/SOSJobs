@@ -11,11 +11,11 @@ header h1{
     margin-left:25%;
     width: 50%;
 }
-header a .new{
-    margin: .3em;
+header a img{
+    vertical-align: middle;
+    line-height:100px;
+    margin: 0;
     padding: 0;
-    width: 30px;
-    height: 30px;
 }
 .new{
     height:80%;
@@ -23,6 +23,7 @@ header a .new{
     margin-right:12px;
     margin-top:12px;
 }
+
 div.vacatures header{
     background: rgba(0,0,0,0);
     padding: 0;
@@ -32,6 +33,7 @@ div.vacatures header{
     font-size: .75em;
     font-weight: 200;
 }
+
 #list{
     width: 100%;
     list-style-type: none;
@@ -55,7 +57,7 @@ div.vacatures header{
     right: 0;
     
     width: 0;
-    max-width: 30em;
+    max-width: 15em;
     overflow: hidden;
 }
 .sliderOnTop ul{
@@ -84,13 +86,12 @@ div.vacatures header{
 .sliderUnder{
     position: relative;
     height: 100%;
-    overflow: hidden;
 }
 .sliderUnder .text{
     padding: 1.25em 0;
     margin: 0 0 0 5%;
     color: #555;
-    width: 70%;
+    width: 75%;
     height: 100%;
     box-sizing: border-box;
     display: inline-block;
@@ -121,7 +122,6 @@ div.vacatures header{
 }
 
 .sliderUnder .messages p{
-    line-height: 1.4em;
     display: inline-block;
     color: #fff;
     background: #DA4453;
@@ -134,12 +134,5 @@ div.vacatures header{
 
 
 
-.clearfix:after 
-{ 
- content: "."; 
- display: block; 
- clear: both; 
- visibility: hidden; 
- line-height: 0; height: 0; 
-}
+
 
