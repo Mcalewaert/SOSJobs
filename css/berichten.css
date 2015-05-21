@@ -65,7 +65,7 @@ header{
     margin-bottom: 15px;
 }
 .orden{
-    z-index: 5;
+    z-index: 10;
     position:absolute;
     left:65%;
     overflow:hidden;
@@ -87,6 +87,7 @@ header{
     height:100vh;
     position: fixed;
     display:none;
+    z-index: 5;
 
 }
 .editKnop{
