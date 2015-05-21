@@ -1,0 +1,73 @@
+h2 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.vacature {
+    background-color: #EEF3F5;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+.vacature h3 {
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+
+.vacature p {
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.vacature p,
+.vacature h3,
+h2 {
+    margin-left: 10%;
+    width: 70%;
+}
+
+.verloopdatum {
+    padding-top: 2%;
+}
+
+.wrapper {
+    margin-bottom: 100px;
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+.sterimg {
+    float: right;
+    position: relative;
+    top: -57px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5%;
+}
+.tab {
+    margin-bottom: 20px; 
+}
+.tab ul li {
+    display: inline-block;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+    margin: 0;
+    padding: 12px 0 10px;
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
+}
+
+.tab ul li.active {
+    border-bottom: 5px solid #48CFAD;
+    padding-bottom: 8px;
+    color: #48CFAD;
+    margin: 0;
+    font-weight: 500;
+    transition: 0.2s;
+}
