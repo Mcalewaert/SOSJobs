@@ -102,6 +102,7 @@ header{
     width:20%;
     height:50px;
     top:0;
+    z-index: 11;
 }
 .optieKnop img{
     width:5px;
