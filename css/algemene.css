@@ -102,4 +102,15 @@ a{
     text-decoration: none;
     color:black;
 }
+.terugKnop{
+    position:absolute;
+    left:0%;
+    width:20%;
+    height:50px;
+    top:0;
+}
+.terugKnop img{
+    width:10px;
+}
+
     
