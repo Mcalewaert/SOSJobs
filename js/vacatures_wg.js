@@ -2,19 +2,31 @@ $(function(){
     
     $.mobile.loading().hide();
     
+    var isTouchMoving = false;
+    
+    
+    
     var $vacature = $('#list li');
-    //var $slideUnder = $('.vacature');
-    //var $listItemsSwiped = $('.bericht .sliderTop');
-    //var $listItemsText = $('#list .sliderUnder .text');
+    
+    $vacature.on('click',function(e){
+        if(isTouchMoving){
+            isTouchMoving = false;
+            return false;
+        }
+        
+        window.location.href = "vacaturedetail.html";
+        
+    });
+    
     var $listItemIcons = $('.vacature .sliderOnTop .iconList');
     
     
     // SWIPE LEFT
     $vacature.on("swipeleft", function(e){
+        isTouchMoving = true;
         
         var alreadyOpenTest = $(this).find('.vacature').css('right');
         alreadyOpenTest = alreadyOpenTest.substring(0,alreadyOpenTest.length-2);
-        console.log(alreadyOpenTest);
         
         if(alreadyOpenTest!=0){
             // do nothing
@@ -33,9 +45,9 @@ $(function(){
     
     //SWIPE RIGHT
     $vacature.on("swiperight", function(e){
+        isTouchMoving = true;
         var alreadyOpenTest = $(this).css('right');
         alreadyOpenTest = alreadyOpenTest.substring(0,alreadyOpenTest.length-2);
-        console.log('right: ' + alreadyOpenTest);
         
         if(alreadyOpenTest!=0){
             $vacature.animate({right:'0'},100,'easeInOutQuad');
