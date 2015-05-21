@@ -23,7 +23,6 @@ header a img{
     margin-right:12px;
     margin-top:12px;
 }
-
 div.vacatures header{
     background: rgba(0,0,0,0);
     padding: 0;
@@ -33,7 +32,6 @@ div.vacatures header{
     font-size: .75em;
     font-weight: 200;
 }
-
 #list{
     width: 100%;
     list-style-type: none;
@@ -57,7 +55,7 @@ div.vacatures header{
     right: 0;
     
     width: 0;
-    max-width: 15em;
+    max-width: 30em;
     overflow: hidden;
 }
 .sliderOnTop ul{
@@ -91,7 +89,7 @@ div.vacatures header{
     padding: 1.25em 0;
     margin: 0 0 0 5%;
     color: #555;
-    width: 75%;
+    width: 70%;
     height: 100%;
     box-sizing: border-box;
     display: inline-block;
