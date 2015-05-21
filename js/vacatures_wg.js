@@ -2,48 +2,45 @@ $(function(){
     
     $.mobile.loading().hide();
     
-    var $vacatures = $('#list li');
-    
-    var $msgBlock = $('#list .vacature .sliderUnder .messages');
-    
-    
-    var $listItems = $('#list .sliderUnder');
-    var $listItemsSwiped = $('#list .sliderOnTop');
-    var $listItemsText = $('#list .sliderUnder .text');
-    var $listItemIcons = $('#list .sliderOnTop .iconList');
+    var $vacature = $('#list li');
+    //var $slideUnder = $('.vacature');
+    //var $listItemsSwiped = $('.bericht .sliderTop');
+    //var $listItemsText = $('#list .sliderUnder .text');
+    var $listItemIcons = $('.vacature .sliderOnTop .iconList');
     
     
     // SWIPE LEFT
-    $listItems.on("swipeleft", function(e){
-        console.log('swipeleft');
+    $vacature.on("swipeleft", function(e){
         
-        var alreadyOpenTest = $(this).parent().find('.sliderOnTop').css('width');
+        var alreadyOpenTest = $(this).find('.vacature').css('right');
         alreadyOpenTest = alreadyOpenTest.substring(0,alreadyOpenTest.length-2);
-        if(alreadyOpenTest>0){
-            //nothing happens
+        console.log(alreadyOpenTest);
+        
+        if(alreadyOpenTest!=0){
+            // do nothing
         }
         else{
             // RESET ALL ORIGINAL POSITIONS
-            $listItemsText.animate({margin:'0 0 0 5%'},100,'easeInOutQuad');
-            $listItemsSwiped.animate({width:'0'},100,'easeInOutQuad');
+            $vacature.animate({right:'0'},200,'easeInOutQuad');
             $listItemIcons.animate({opacity:'0'},100,'linear');
 
             // MOVE SWIPED ITEM
             $listItemIcons.animate({opacity:'1'},100,'linear');
-            $(this).parent().find('.sliderUnder .text').animate({margin:'0 0 0 -15%'},200,'easeInOutQuad');
-            $(this).parent().find('.sliderOnTop').animate({width: '50%'},200,'easeInOutQuad');
+            $(this).animate({right:'+=15em'},200,'easeInOutQuad');
+            $(this).find('.sliderOnTop').animate({right:'-15em'},200,'easeInOutQuad');
         }
         
     });
     
     //SWIPE RIGHT
-    $listItems.on("swiperight", function(e){
-        var alreadyOpenTest = $(this).parent().find('.sliderOnTop').css('width');
+    $vacature.on("swiperight", function(e){
+        var alreadyOpenTest = $(this).css('right');
         alreadyOpenTest = alreadyOpenTest.substring(0,alreadyOpenTest.length-2);
-        if(alreadyOpenTest>0){
+        console.log('right: ' + alreadyOpenTest);
+        
+        if(alreadyOpenTest!=0){
+            $vacature.animate({right:'0'},100,'easeInOutQuad');
             $listItemIcons.animate({opacity:'0'},100,'linear');
-            $listItemsText.animate({margin:'0 0 0 5%'},200,'easeInOutQuad');
-            $listItemsSwiped.animate({width:'0'},200,'easeInOutQuad');
         }
     });
     

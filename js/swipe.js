@@ -11,7 +11,6 @@ $(function(){
     
     // SWIPE LEFT
     $berichten.on("swipeleft", function(e){
-        console.log('swipeleft');
         
         var alreadyOpenTest = $(this).css('right');
         alreadyOpenTest = alreadyOpenTest.substring(0,alreadyOpenTest.length-2);
@@ -34,10 +33,8 @@ $(function(){
     
     //SWIPE RIGHT
     $berichten.on("swiperight", function(e){
-        console.log('swiperight');
         var alreadyOpenTest = $(this).css('right');
         alreadyOpenTest = alreadyOpenTest.substring(0,alreadyOpenTest.length-2);
-        console.log(alreadyOpenTest);
         
         if(alreadyOpenTest>0){
             $berichten.animate({right:'0'},100,'easeInOutQuad');
