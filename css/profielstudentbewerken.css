@@ -1,15 +1,21 @@
 header h1{
     font-size:0.8em;
 }
+input{
+    height:25px;
+    width:90%;
+    outline:none;
+    
+}
 
 #profielimg{
     width:75px;
     height:75px;
     display:block;
-    float:left;
+    float:none;
     border-radius:50%;
-    margin-left: 5%;
-    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .line h3{
     float:left;
@@ -52,10 +58,12 @@ header h1{
 }
 .beschrijving{
     margin-left: 5%;
-    margin-right: 5%;
-    width:90%;
+    margin-right: 10%;
+    width:85%;
     padding-bottom:20px;
     border-bottom: solid 1px #48CFAD;
+    margin-top:10px;
+    box-sizing: border-box;
 }
 .beschrijving:last-child{
     margin-bottom: 100px;
