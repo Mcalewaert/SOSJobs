@@ -1,14 +1,53 @@
+.overflowFix{
+    overflow: hidden;
+}
 .bericht{
+    position: relative;
     background-color: #EEF3F5;
     margin-bottom: 5px;
     padding-bottom:20px;
-
+    right: 0;
 }
+.sliderTop{
+    background: #DA4453;
+    color: #efefef;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: -10em;
+    
+    width: 10em;
+    max-width: 15em;
+}
+.sliderTop ul{
+    text-align: center;
+    list-style-type: none;
+    height: 100%;
+}
+.sliderTop ul li{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.sliderTop ul li:hover{
+    cursor: pointer;
+    background-color: #f66;
+}
+.sliderTop ul li img{
+    width: 1.5em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .bericht h3{
-    font-weight: 400;
+    font-weight: 300;
     padding-top:20px;
     padding-bottom:10px;
-    font-size:1em;
+    
 }
 .bericht p{
     max-height:40px;
@@ -26,6 +65,7 @@ header{
     margin-bottom: 15px;
 }
 .orden{
+    z-index: 5;
     position:absolute;
     left:65%;
     overflow:hidden;
@@ -39,7 +79,7 @@ header{
 .orden li{
     font-weight: 300;
     width:100%;
-    border-bottom:2px solid white;
+    margin-bottom:2px;
     background-color: rgb(42,177,143);
 }
 .klik{
