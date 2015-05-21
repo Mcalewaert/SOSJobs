@@ -1,33 +1,30 @@
-jQuery(document).ready(function ($) {
+$(document).ready(function () {
 
 var open = false;
     
 
     $(".optieKnop").click(function () {  
     if(open ==false){
-    $(".orden").slideDown();
-    $(".klik").show();    
-    open = true;
+        $(".orden").stop().slideDown();
+        $(".klik").show();    
+        open = true;
     }
         
-    else if(open ==true){
-    $(".orden").slideUp();
-    $(".klik").hide();     
-    open = false;
+    else if(open == true){
+        $(".orden").stop().slideUp();
+        $(".klik").hide();     
+        open = false;
     }    
         
         
-    })
-    
+    });
+
     
     $(".klik").click(function () {
     if(open==true){
-    $(".orden").slideUp();
+        $(".orden").stop().slideUp();
+        $(".klik").hide();
     }
-    })
-    
-
-       
-       
+    }); 
        
         });

@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+   margin-bottom: 70px;
+}
+
+.orden{
+    position:absolute;
+    left:65%;
+    overflow:hidden;
+    width:35%;
+    display:none;
+}
+
+.orden ul{
+    font-size:0.7em;
+    list-style-type: none;
+}
+
+.orden li{
+    font-weight: 300;
+    width:100%;
+    margin-bottom:2px;
+    background-color: rgb(42,177,143);
+    cursor: pointer;
+}
+
+.klik{
+    width:100%;
+    height:100vh;
+    position: fixed;
+    display:none;
+
+}
+
+.optieKnop{
+    position:absolute;
+    left:80%;
+    width:20%;
+    height:50px;
+    top:0;
+    cursor: pointer;
+}
+
+.optieKnop img{
+    width:5px;
+}
+
+header{
+    margin-bottom: 0;
+}
+
+.content{
+    margin-left: 0;
+}
+
+.tab ul li {
+    display: inline-block;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+    margin: 0;
+    padding: 12px 0 10px;
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
+}
+
+.tab ul li.active {
+    border-bottom: 5px solid #48CFAD;
+    padding-bottom: 8px;
+    color: #48CFAD;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+h2{
+    margin: 20px 0 10px 20px;
+}
+
+h2 span{
+    font-weight: 800;
+}
+
+.pijlrechts{
+    height: 0.7em;
+}
+
+.vacature{
+    background-color: #EEF3F5;
+    padding-bottom:15px;
+    margin: 5px 0;
+}
+.vacature h3{
+    padding-top:10px;
+    padding-bottom:5px;
+    
+}
+.vacature p{
+    font-size: 0.8em;
+    max-height:35px;
+    max-width: 68%;
+    overflow:hidden;
+}
+
+.vacature p,.vacature h3{
+    margin-left:10%;
+    width:80%;
+}
+
+.vacature .datum {
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.ster{
+    height: 30px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
+}

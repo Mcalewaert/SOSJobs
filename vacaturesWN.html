@@ -4,17 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vacatures</title>
+    
     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/dropDown.js"></script>
+    <script src="js/vacaturesWN.js"></script>
+    
     <link href="css/algemene.css" rel="stylesheet">
     <link href="css/vacaturesWN.css" rel="stylesheet">
+    <link href="css/iconfont.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <header>
+        <div class="klik"></div>
         <h1>Vacatures</h1>
-        <img src="img/Bolletjes.png" alt="Filter">
+        <div class="optieKnop"><img src="img/Bolletjes.png"></div>
+        <div class="orden">
+           <ul>
+               <li>Datum</li>
+               <li>Bedrijf</li>
+               <li>Afstand</li>
+               <li>Functie</li>
+           </ul>
+        </div>
     </header>
+    <div class="wrapper">
+    <section class="content">
+        <nav class="tab">
+            <ul>
+                <li class="active jobs"><p>Jobs</p></li><li class="stages"><p>Stages</p></li>
+            </ul>
+        </nav>
+        <div class="jobvacatures">
+            <h2 class="distance">In de omgeving van <span>5</span> km </h2>
+            <div class="vacature">
+                <img class="ster" src="img/sterleeg.png" alt="star">
+                <h3>Sales Associate</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque expedita et eligendi facilis dolor molestiae, velit nisi iure. Corporis unde ad consequuntur cupiditate nobis, aliquam quos eveniet dolor ut.</p> 
+                <p class="datum">Verloopt 29/05/2015</p>
+            </div>
+            <div class="vacature">
+                <img class="ster" src="img/sterleeg.png" alt="star">
+                <h3>Sales Associate</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque expedita et eligendi facilis dolor molestiae, velit nisi iure. Corporis unde ad consequuntur cupiditate nobis, aliquam quos eveniet dolor ut.</p> 
+                <p class="datum">Verloopt 29/05/2015</p>
+            </div>
+            <h2 class="distance">In de omgeving van <span>10</span> km</h2>
+            <div class="vacature">
+                <img class="ster" src="img/sterleeg.png" alt="star">
+                <h3>Sales Associate</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque expedita et eligendi facilis dolor molestiae, velit nisi iure. Corporis unde ad consequuntur cupiditate nobis, aliquam quos eveniet dolor ut.</p> 
+                <p class="datum">Verloopt 29/05/2015</p>
+            </div>
+            <div class="vacature">
+                <img class="ster" src="img/sterleeg.png" alt="star">
+                <h3>Sales Associate</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque expedita et eligendi facilis dolor molestiae, velit nisi iure. Corporis unde ad consequuntur cupiditate nobis, aliquam quos eveniet dolor ut.</p> 
+                <p class="datum">Verloopt 29/05/2015</p>
+            </div>  
+        </div>
+        <div class="stagevacatures">
+            <h2 class="distance">In de omgeving van <span>5</span> km</h2>
+            <div class="vacature">
+                <img class="ster" src="img/sterleeg.png" alt="star">
+                <h3>Sales Associate</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque expedita et eligendi facilis dolor molestiae, velit nisi iure. Corporis unde ad consequuntur cupiditate nobis, aliquam quos eveniet dolor ut.</p> 
+                <p class="datum">Verloopt 29/05/2015</p>
+            </div>
+            <div class="vacature">
+                <img class="ster" src="img/sterleeg.png" alt="star">
+                <h3>Sales Associate</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque expedita et eligendi facilis dolor molestiae, velit nisi iure. Corporis unde ad consequuntur cupiditate nobis, aliquam quos eveniet dolor ut.</p> 
+                <p class="datum">Verloopt 29/05/2015</p>
+            </div>  
+            <h2 class="distance">In de omgeving van <span>10</span> km</h2>
+            <div class="vacature">
+                <img class="ster" src="img/sterleeg.png" alt="star">
+                <h3>Sales Associate</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque expedita et eligendi facilis dolor molestiae, velit nisi iure. Corporis unde ad consequuntur cupiditate nobis, aliquam quos eveniet dolor ut.</p> 
+                <p class="datum">Verloopt 29/05/2015</p>
+            </div>
+            <div class="vacature">
+                <img class="ster" src="img/sterleeg.png" alt="star">
+                <h3>Sales Associate</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque expedita et eligendi facilis dolor molestiae, velit nisi iure. Corporis unde ad consequuntur cupiditate nobis, aliquam quos eveniet dolor ut.</p> 
+                <p class="datum">Verloopt 29/05/2015</p>
+            </div> 
+        </div>
+    </section>
     
-    
+    <nav id="hoofdNav">
+        <ul>
+            <a href=""><li class="main"><p class="icon-vac"></p></li></a>
+            <a href=""><li><p class="icon-berichten"></p></li></a>
+            <a href=""><li><p class="icon-groepen"></p></li></a>
+            <a href=""><li><p class="icon-nav"></p></li></a>
+        </ul>
+    </nav>
+    </div>
 </body>
 </html>
