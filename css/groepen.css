@@ -16,9 +16,20 @@
 .groepen h2{
         color: #555;
         text-align: center;
-        font-size:1.5em;
-        margin-bottom:20px;
+        font-size:1.2em;
+        margin-bottom:10px;
 }
+.groepen p{
+        padding:10px;
+        height:35px;
+        overflow: hidden;
+        text-align: center;
+        font-size:0.8em;
+        background-color:rgb(218,223,225);
+        border-radius: 0 0 5px 5px;
+    
+}
+
 header{
     margin-bottom: 20px;
 }
