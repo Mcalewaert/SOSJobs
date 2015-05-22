@@ -1,57 +1,63 @@
-h2 {
-    padding-bottom: 20px;
-    padding-top: 10px;
+body{
+    margin: 0;
 }
 
-.vacature {
-    background-color: #EEF3F5;
-    margin-bottom: 5px;
-    padding-bottom: 20px;
+.wrapper{
+   margin-bottom: 70px;
 }
 
-.vacature h3 {
-    font-weight: 400;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 1em;
+.orden{
+    position:absolute;
+    left:65%;
+    overflow:hidden;
+    width:35%;
+    display:none;
 }
 
-.vacature p {
-    max-height: 40px;
-    overflow: hidden;
+.orden ul{
+    font-size:0.7em;
+    list-style-type: none;
 }
 
-.vacature p,
-.vacature h3,
-h2 {
-    margin-left: 10%;
-    width: 70%;
+.orden li{
+    font-weight: 300;
+    width:100%;
+    margin-bottom:2px;
+    background-color: rgb(42,177,143);
+    cursor: pointer;
 }
 
-.verloopdatum {
-    padding-top: 2%;
+.klik{
+    width:100%;
+    height:100vh;
+    position: fixed;
+    display:none;
+
 }
 
-.wrapper {
-    margin-bottom: 100px;
+.optieKnop{
+    position:absolute;
+    left:80%;
+    width:20%;
+    height:50px;
+    top:0;
+    cursor: pointer;
 }
 
-header {
-    margin-bottom: 15px;
+.optieKnop img{
+    width:5px;
 }
 
-.sterimg {
-    float: right;
-    position: relative;
-    top: -57px;
-    width: 30px;
-    height: 30px;
-    margin-right: 5%;
+header{
+    margin-bottom: 0;
 }
-.tab {
-    margin-bottom: 20px; 
+
+.content{
+    margin-left: 0;
 }
+
 .tab ul li {
+    color: #555555;
     display: inline-block;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -59,7 +65,7 @@ header {
     width: 50%;
     margin: 0;
     padding: 12px 0 10px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #555555;
     cursor: pointer;
 }
 
@@ -67,7 +73,45 @@ header {
     border-bottom: 5px solid #48CFAD;
     padding-bottom: 8px;
     color: #48CFAD;
-    margin: 0;
     font-weight: 500;
     transition: 0.2s;
+}
+
+.pijlrechts{
+    height: 0.7em;
+}
+
+.vacature{
+    background-color: #EEF3F5;
+    padding-bottom:15px;
+    margin: 5px 0;
+}
+.vacature h3{
+    padding-top:10px;
+    padding-bottom:5px;
+        font-weight: 200;
+    
+}
+.vacature p{
+    font-size: 0.8em;
+    max-height:35px;
+    max-width: 68%;
+    overflow:hidden;
+}
+
+.vacature p,.vacature h3{
+    margin-left:10%;
+    width:80%;
+}
+
+.vacature .datum {
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.ster{
+    height: 30px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
 }
