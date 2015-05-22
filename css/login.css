@@ -13,13 +13,17 @@ input {
     font-size: 1em;
     color: #48CFAD;
     background-color: #f5f7fa;
-    border: 1px solid #48CFAD;
+    border: 1px solid #555555;
     border-radius: 2px;
     text-indent: 10px;
+    outline:none;
 }
 
 input.error {
     border: 1px solid #DA4453;
+}
+input.ok{
+    border: 1px solid #48CFAD;
 }
 
 a.accountLink {
