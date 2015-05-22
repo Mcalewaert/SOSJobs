@@ -28,8 +28,10 @@ div.vacatures header{
     margin: .5em 0 0 0;
 }
 .vacatures header h2{
+    text-align: left;
     font-size: .6em;
     font-weight: 400;
+    margin-left: 10%;
 }
 #list{
     width: 100%;
@@ -113,12 +115,11 @@ div.vacatures header{
 .sliderUnder .messages{
     
     display: block;
-    width: 5em;
+    width: 2.5em;
     min-height: 6em;
     position: absolute;
     right: 0;
     top: 0;
-    text-align: center;
     
     
     /*text-align: center;
@@ -134,6 +135,7 @@ div.vacatures header{
 }
 
 .sliderUnder .messages p{
+    text-align: center;
     line-height: 2.5em;
     display: inline-block;
     color: #fff;
@@ -143,6 +145,13 @@ div.vacatures header{
     height: 2.5em;
     position: absolute;
     top: 1.75em;
+}
+
+.sliderUnder:hover{
+    background: green;
+}
+.messages:hover{
+    background: red;
 }
 
 

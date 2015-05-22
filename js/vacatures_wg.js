@@ -4,11 +4,12 @@ $(function(){
     
     var isTouchMoving = false;
     
-    
-    
     var $vacature = $('#list li');
+    var $vacatureLink = $('#list li .sliderUnder');
     
-    $vacature.on('click',function(e){
+    $vacatureLink.on('tap',function(e){
+        console.log('vacature link geklikt');
+        console.log(isTouchMoving);
         if(isTouchMoving){
             isTouchMoving = false;
             return false;
@@ -18,8 +19,9 @@ $(function(){
         
     });
     
-    var $listItemIcons = $('.vacature .sliderOnTop .iconList');
     
+    
+    var $listItemIcons = $('.vacature .sliderOnTop .iconList');
     
     // SWIPE LEFT
     $vacature.on("swipeleft", function(e){
@@ -30,6 +32,8 @@ $(function(){
         
         if(alreadyOpenTest!=0){
             // do nothing
+            isTouchMoving = false;
+            return false;
         }
         else{
             // RESET ALL ORIGINAL POSITIONS
@@ -38,9 +42,12 @@ $(function(){
 
             // MOVE SWIPED ITEM
             $listItemIcons.animate({opacity:'1'},100,'linear');
-            $(this).animate({right:'+=12em'},200,'easeInOutQuad');
+            $(this).animate({right:'+=12em'},200,'easeInOutQuad',function(){
+                isTouchMoving = false;
+                return false;
+            });
         }
-        
+        return false;
     });
     
     //SWIPE RIGHT
@@ -53,6 +60,9 @@ $(function(){
             $vacature.animate({right:'0'},100,'easeInOutQuad');
             $listItemIcons.animate({opacity:'0'},100,'linear');
         }
+        isTouchMoving = false;
+        return false;
     });
+    
     
 });
