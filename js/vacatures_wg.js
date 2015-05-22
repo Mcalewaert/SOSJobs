@@ -5,7 +5,6 @@ $(function(){
     var isTouchMoving = false;
     
     var $vacature = $('#list li');
-<<<<<<< HEAD
     var $vacatureLink = $('#list li .sliderUnder');
     
     $vacatureLink.on('tap',function(e){
@@ -14,28 +13,6 @@ $(function(){
         if(isTouchMoving){
             isTouchMoving = false;
             return false;
-=======
-    var $vacatureLink = $('#list li .linkToDetail');
-    var $listItemIcons = $('.vacature .sliderOnTop .iconList');
-    
-    $vacature.find('.vacature').css({right:'0'});
-    
-    $vacatureLink.on('tap', function(e){
-        
-        e.preventDefault();
-        
-        var link = $(this).attr('href');
-        
-        if(link != "#"){
-            
-            //console.log('CHANGE PAGE TO: ' + link );
-            
-            window.location.href = link;
-            
-        }
-        else{
-            console.log('Link disabled');
->>>>>>> origin/master
         }
         
         window.location.href = "vacaturedetail.html";

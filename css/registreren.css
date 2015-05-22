@@ -32,7 +32,6 @@ p:first-child{
     box-sizing: border-box;
     display:block;
     float: left;
-
 }
 p:last-child{
     box-sizing: border-box;
@@ -51,7 +50,6 @@ input{
     border: 1px solid #48CFAD;
     border-radius: 2px;
     text-indent: 10px;
-    font-family: inherit;
 }
 
 form{
@@ -64,6 +62,7 @@ form{
 #studentform{
     display:none;
 }
+
 
 
 
