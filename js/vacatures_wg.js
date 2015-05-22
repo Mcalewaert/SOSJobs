@@ -19,9 +19,9 @@ $(function(){
         
         if(link != "#"){
             
-            console.log('CHANGE PAGE TO: ' + link );
+            //console.log('CHANGE PAGE TO: ' + link );
             
-            //window.location.href = link;
+            window.location.href = link;
             
         }
         else{
