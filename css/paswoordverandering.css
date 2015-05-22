@@ -10,29 +10,39 @@ h3{
     color: #48CFAD;
     font-size:1em;
     margin-bottom: 20px;
+    margin-left:5%;
     
 }
-input{
-    display:block;
-    height:20px;
-    margin-top:5px;
-    margin-bottom:5px;
-    width:100%;
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 0;
+    padding-left:2%;
+    width: 90%;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #48CFAD;
+    background-color: #f5f7fa;
+    border: 1px solid #48CFAD;
+    border-radius: 3px;
 }
 button{
-    height:30px;
-    margin-top:5px;
+    height:40px;
+    margin-top:10px;
     font-family: Lato;
     background-color: #48CFAD;
     border:0;
     color: white;
+    border-radius: 3px;
     
 }
 button:first-child{
     width:40%;
+    margin-left:5%;
     background-color: #DA4453;
 }
 button:last-child{
     width:40%;
     float:right;
+    margin-right:5%;
 }
