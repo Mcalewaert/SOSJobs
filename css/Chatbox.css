@@ -1,0 +1,59 @@
+.chatLinks{
+    float:left;
+    margin-bottom:30px;
+}
+.chatRechts{
+    float:right;
+    margin-bottom:30px;
+}
+.chatLinks .box{
+    background-color: #EEF3F5;;
+    width:60%;
+    margin-left:10%;
+    border-radius: 0em 2em 2em 2em;
+    z-index:100;
+    z-index: 10;
+}
+.chatRechts .box{
+    background-color: #EEF3F5;
+    width:60%;
+    margin-left:30%;
+    border-radius: 2em 0em 2em 2em;
+    z-index:100;
+    z-index: 10;
+}
+.box p{
+    padding: 20px;
+    color:#555;
+}
+.sturen{
+    position: fixed;
+    height:50px;
+    bottom:0;
+    background-color: #48CFAD;
+    width:100%;
+}
+.sturen div{
+    width:70%;
+    border: 2px solid white;
+    border-radius:0.3em;
+    height:30px;
+    box-sizing: border-box;
+    padding-left:4%;
+    padding-top:3px;
+    color:white;
+    margin-top:10px;
+    margin-left:10%;
+    float:left;
+}
+.sturen p{
+    float:left;
+    width:15%;
+    box-sizing: border-box;
+    padding:15px;
+    color:white;
+}
+h1{
+    font-size:0.8em;
+
+}

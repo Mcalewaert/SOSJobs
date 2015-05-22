@@ -140,3 +140,6 @@ a {
 .plusKnop img{
     width:20px;
 }
+.clearFix{
+    clear:both;
+}
