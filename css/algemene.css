@@ -9,6 +9,7 @@ body {
     font-weight: 300;
     color: #555;
 }
+
 header {
     background-color: #48CFAD;
     color: white;
@@ -115,7 +116,7 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #555;
+    color: black;
 }
 
 .terugKnop {
@@ -141,4 +142,8 @@ a {
 }
 .clearFix{
     clear:both;
+}
+
+input {
+    font-family: inherit; 
 }
