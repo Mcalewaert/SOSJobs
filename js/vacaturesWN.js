@@ -18,7 +18,6 @@ $(document).ready(function () {
     
     $(".ster").click(function(){
         var source = $(this).attr("src");
-        console.log(source);
         if(source == "img/sterleeg.png"){
             $(this).attr("src", "img/ster.png");
         } else {
