@@ -1,3 +1,10 @@
+header{
+    position:fixed;
+    width:100%;
+}
+.wrapper{
+    padding-top:70px;
+}
 .chatLinks{
     float:left;
     margin-bottom:30px;
