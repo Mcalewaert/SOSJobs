@@ -1,58 +1,57 @@
-body{
+body {
     margin: 0;
 }
 
-.wrapper{
-   margin-bottom: 70px;
+.wrapper {
+    margin-bottom: 70px;
 }
 
-.orden{
-    position:absolute;
-    left:65%;
-    overflow:hidden;
-    width:35%;
-    display:none;
+.orden {
+    position: absolute;
+    left: 65%;
+    overflow: hidden;
+    width: 35%;
+    display: none;
 }
 
-.orden ul{
-    font-size:0.7em;
+.orden ul {
+    font-size: 0.7em;
     list-style-type: none;
 }
 
-.orden li{
+.orden li {
     font-weight: 300;
-    width:100%;
-    margin-bottom:2px;
-    background-color: rgb(42,177,143);
+    width: 100%;
+    margin-bottom: 2px;
+    background-color: rgb(42, 177, 143);
     cursor: pointer;
 }
 
-.klik{
-    width:100%;
-    height:100vh;
+.klik {
+    width: 100%;
+    height: 100vh;
     position: fixed;
-    display:none;
-
+    display: none;
 }
 
-.optieKnop{
-    position:absolute;
-    left:80%;
-    width:20%;
-    height:50px;
-    top:0;
+.optieKnop {
+    position: absolute;
+    left: 80%;
+    width: 20%;
+    height: 50px;
+    top: 0;
     cursor: pointer;
 }
 
-.optieKnop img{
-    width:5px;
+.optieKnop img {
+    width: 5px;
 }
 
-header{
+header {
     margin-bottom: 0;
 }
 
-.content{
+.content {
     margin-left: 0;
 }
 
@@ -77,31 +76,37 @@ header{
     transition: 0.2s;
 }
 
-.pijlrechts{
+.pijlrechts {
     height: 0.7em;
 }
 
-.vacature{
+.vacature {
     background-color: #EEF3F5;
-    padding-bottom:15px;
+    padding-bottom: 15px;
     margin: 5px 0;
 }
-.vacature h3{
-    padding-top:10px;
-    padding-bottom:5px;
-        font-weight: 200;
-    
-}
-.vacature p{
-    font-size: 0.8em;
-    max-height:35px;
-    max-width: 68%;
-    overflow:hidden;
+
+.vacature:first-child {
+    margin-top: 20px;
 }
 
-.vacature p,.vacature h3{
-    margin-left:10%;
-    width:80%;
+.vacature h3 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 200;
+}
+
+.vacature p {
+    font-size: 0.8em;
+    max-height: 35px;
+    max-width: 68%;
+    overflow: hidden;
+}
+
+.vacature p,
+.vacature h3 {
+    margin-left: 10%;
+    width: 80%;
 }
 
 .vacature .datum {
@@ -109,7 +114,7 @@ header{
     font-weight: 400;
 }
 
-.ster{
+.ster {
     height: 30px;
     float: right;
     margin-top: 40px;
