@@ -17,7 +17,9 @@ $(function(){
         console.log(alreadyOpenTest);
         
         if(alreadyOpenTest>0){
-            // do nothing
+            $(this).animate({right:'+=1em'},100,'linear',function(){
+                $(this).animate({right:'-=1em'},500,'easeOutElastic');
+            });
         }
         else{
             // RESET ALL ORIGINAL POSITIONS
@@ -39,6 +41,13 @@ $(function(){
         if(alreadyOpenTest>0){
             $berichten.animate({right:'0'},100,'easeInOutQuad');
             $listItemIcons.animate({opacity:'0'},100,'linear');
+        }
+        else{
+            $(this).animate({right:'-=1em'},100,'linear',function(){
+                $(this).animate({right:'0'},500,'easeOutElastic',function(){
+                    //animationDone = true;
+                });
+            });
         }
     });
     
