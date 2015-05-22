@@ -11,7 +11,13 @@ $(document).ready(function () {
         $(".invoerveld").blur(function(){
                   var waarde = $(".invoerveld").val();  
                     console.log(waarde);
-        $(this).replaceWith("<p class='details'>" + waarde + "</p>");     
+        $(this).replaceWith("<p class='details'>" + waarde + "</p>");
+        });
+        $(".invoerveld").keypress(function(e) {
+            if(e.which == 13) {
+                var waarde = $(".invoerveld").val();
+                $(this).replaceWith("<p class='details'>" + waarde + "</p>"); 
+            }
         });
 
 });
@@ -23,6 +29,13 @@ $(document).ready(function () {
                     console.log(waarde);
         $(this).replaceWith("<p class='details'>" + waarde + "</p>");     
         });
+            $(".invoerveld").keypress(function(e) {
+            if(e.which == 13) {
+                var waarde = $(".invoerveld").val();
+                $(this).replaceWith("<p class='details'>" + waarde + "</p>"); 
+            }
+        });
+
 
 });
             $(".bewerkinformatieemail").click(function () {
@@ -33,6 +46,13 @@ $(document).ready(function () {
                     console.log(waarde);
         $(this).replaceWith("<p class='details'>" + waarde + "</p>");     
         });
+                $(".invoerveld").keypress(function(e) {
+            if(e.which == 13) {
+                var waarde = $(".invoerveld").val();
+                $(this).replaceWith("<p class='details'>" + waarde + "</p>"); 
+            }
+        });
+
 
 });
 });
