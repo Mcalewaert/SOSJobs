@@ -6,7 +6,7 @@ $(function(){
     
     var oldLink = "";
     var $vacature = $('#list li');
-    var $vacatureLink = $('#list li .sliderUnder');
+    var $vacatureLink = $('#list li .linkToDetail');
     var $listItemIcons = $('.vacature .sliderOnTop .iconList');
     
     $vacature.find('.vacature').css({right:'0'});
@@ -15,7 +15,7 @@ $(function(){
         
         e.preventDefault();
         
-        var link = $(this).find('.linkToDetail[href]').attr('href');
+        var link = $(this).attr('href');
         
         if(link != "#"){
             
