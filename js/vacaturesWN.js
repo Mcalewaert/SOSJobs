@@ -31,6 +31,8 @@ function ophalenvacatures(){
         //dataType: 'JSON',
         success: successHandler,
         error: onError
+    }).done(function(){
+        $("#spinner").slideUp();
     });
 }
 
