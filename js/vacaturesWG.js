@@ -6,7 +6,7 @@ jquery: true
 
 $(document).ready(function () {
 
-        ophalenvacatures();
+    ophalenvacatures();
     
 });
 
@@ -46,7 +46,6 @@ $(document).ready(function () {
         $("#list").append(htmlvacaturesWG);
         
         swipe();
-        
     }
                                 
 

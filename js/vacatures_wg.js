@@ -1,10 +1,10 @@
 $(function(){
     
     $.mobile.loading().hide();
+    
     swipe();
+    
 });
-
-
 
 function swipe(){
     
@@ -126,10 +126,10 @@ function swipe(){
         setTimeout(function(){
             deleteVacature.remove();
         }, 800);
-        //deleteVacature.remove();
+        
         
     });
     
    
     
-}
+};

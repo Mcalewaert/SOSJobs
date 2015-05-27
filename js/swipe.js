@@ -2,6 +2,13 @@ $(function(){
     
     $.mobile.loading().hide();
     
+    swipeBerichten();
+    
+});
+
+
+function swipeBerichten(){
+
     var $berichten = $('.bericht');
     var $slideUnder = $('.bericht .sliderUnder');
     var $listItemsSwiped = $('.bericht .sliderTop');
@@ -51,4 +58,16 @@ $(function(){
         }
     });
     
-});
+    $('.delete').click(function(){
+        
+        var deleteVacature = $(this).parent().parent().parent().parent();
+        deleteVacature.fadeOut(500,function(){
+            deleteVacature.css({"visibility":"hidden",display:'block'}).slideUp();
+        });
+        setTimeout(function(){
+            deleteVacature.remove();
+        }, 800);
+        
+    });
+
+};
