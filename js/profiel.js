@@ -15,10 +15,10 @@ $(function(){
             url: 'http://www.rachouanrejeb.be/sosjobs/api/users'
         };
         $.ajax({
-            url: "crosscall.php", //link van server
-            data: sendData,
-            type: 'POST',
-            dataType: 'JSON',
+            url: "http://www.rachouanrejeb.be/sosjobs/api/users", //link van server
+            //data: sendData,
+            //type: 'POST',
+            //dataType: 'JSON',
             success: successHandler,
             error: function(err){console.error(err);}
         });
