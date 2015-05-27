@@ -17,6 +17,9 @@ h4{
 #profielbanner{
     height:200px;
 }
+#profielbanner #name{
+    text-transform: capitalize;
+}
 #blur{
     overflow:hidden;
     box-sizing: border-box;

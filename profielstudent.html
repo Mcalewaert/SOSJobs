@@ -4,10 +4,11 @@
     
 <head>
     <meta charset="utf-8">
-    <title>vacatureDetail</title>    
+    <title>Profiel</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/iconfont.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/profiel.js"></script>
     <link href="css/algemene.css" rel="stylesheet">
     <link href="css/profielstudent.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
@@ -25,9 +26,9 @@
             <div class="profielimage">
     <img src="img/Bedrijven.jpg" alt="profielafbeelding">
             </div>
-    <h3>Michael Calewaert</h3>
-    <h4>12 Maart 1994</h4>
-    <h4>Brussels, Belgi&euml;</h4>
+    <h3 id="name">Michael Calewaert</h3>
+    <h4 id="birthdate">12 Maart 1994</h4>
+    <h4 id="location">Brussels, Belgi&euml;</h4>
     </div>
     </div>
     <div class="kaartje">
@@ -35,7 +36,7 @@
             <h5>Beschrijving</h5>
         </div>
         <div class="kaartjedetail">
-            <p>
+            <p id="about">
                 Ik ben Michael Calewaert, ik ben een student Multimedia &amp; CommunicatieTechnologie. Ben vooral geïnteresseerd in Web Devolopmentie. Lorum isporum dieojs kitchi woki pant in da kori tijd in de vori met anissa chilling in de jente holie met zijn bassie zuster en steven die hardie werkie in de kori. Basi in de pc zaalie korie. zerie geintereseerfdie in de applie watchie. Wholla kullir habedoedie in tha annisie macbook proie. Ik willie nieie in die bakkie vliegie omdatikie metie drugsie was aant het trollie rollie.
             </p>
         </div>
@@ -45,9 +46,9 @@
             <h5>Adres</h5>
         </div>
         <div class="kaartjedetail">
-            <p>Diedonken 6</p>
-            <p>2820 Bonheiden</p>
-            <p>België</p>
+            <p id="street">Diedonken 6</p>
+            <p id="town">2820 Bonheiden</p>
+            <p id="country">België</p>
         </div>
     </div>
     <div class="kaartje">
@@ -55,7 +56,7 @@
             <h5>Rijksregisternummer</h5>
         </div>
         <div class="kaartjedetail">
-            <p>94031258723</p>
+            <p id="regNumber">94031258723</p>
 
         </div>
     </div>
@@ -94,7 +95,7 @@
             <h5>StudieRichting</h5>
         </div>
         <div class="kaartjedetail">
-            <p>1 Bachelor: Multimedia &amp; CommunicatieTechnologie</p>
+            <p id="study">1 Bachelor: Multimedia &amp; CommunicatieTechnologie</p>
 
         </div>
     </div>

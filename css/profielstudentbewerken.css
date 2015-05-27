@@ -21,6 +21,9 @@ input{
     margin-right: auto;
     margin-bottom: 15px; 
 }
+#name{
+    text-transform: capitalize;
+}
 .line h3{
     float:left;
     line-height: 50px;
