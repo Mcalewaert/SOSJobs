@@ -5,8 +5,9 @@ jquery: true
 */
 
 $(function(){
-    
-    var studentID = 1;
+    var ID = localStorage.getItem("gebruikersID");
+    var IDklant = parseInt(ID);
+    var studentID = IDklant;
     
     ophalenprofiel();
 

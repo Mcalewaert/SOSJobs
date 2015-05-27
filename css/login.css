@@ -59,7 +59,7 @@ a.accountLink {
     padding: 10px 0;
 }
 
-.login {
+#login {
     clear: both;
     display: block;
     font-size: 1.2em;
