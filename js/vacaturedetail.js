@@ -40,7 +40,7 @@ function getvacancy(id){
         var index = description.indexOf("</h1>") + 5;
         var result = description.substring(index, description.length);
         vacaturedetails += "<h2 class='jobvacature'>" + data[id].title + "</h2>";
-        vacaturedetails += "<img id='vacatureimg' src='http://lorempixel.com/1000/600/cats/' alt='Foto Vacature'>";
+        vacaturedetails += "<img id='vacatureimg' src='http://lorempixel.com/1000/600/business/' alt='Foto Vacature'>";
         vacaturedetails += "<div class='item'><div class='title'>";
         vacaturedetails += "<img src='img/Location-Marker-128.png' alt='Location'><h2>Locatie</h2>";
         vacaturedetails += "</div><p>" + data[id].location + "</p></div>";
