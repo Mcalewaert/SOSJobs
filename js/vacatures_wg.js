@@ -2,6 +2,10 @@ $(function(){
     
     $.mobile.loading().hide();
     
+});
+
+function swipe(){
+    
     var animationDone = true;
     
     var oldLink = "";
@@ -15,11 +19,17 @@ $(function(){
         
         e.preventDefault();
         
+        console.log("tapped");
+        
         var link = $(this).attr('href');
         
         if(link != "#"){
             
             //console.log('CHANGE PAGE TO: ' + link );
+            
+            var vacid = $(this).parent().parent().attr('vacid');
+            
+            localStorage.setItem("vacid",vacid);
             
             window.location.href = link;
             
@@ -105,5 +115,4 @@ $(function(){
         
     });
     
-    
-});
+};
