@@ -63,7 +63,18 @@ function extraFuncties(){
         if(source == "img/sterleeg.png"){
             $(this).attr("src", "img/ster.png");
         } else {
+            console.log("delete item");
+            
             $(this).attr("src", "img/sterleeg.png");
+            
+            var deleteItem = $(this).parent();
+            deleteItem.fadeOut(500,function(){
+                deleteItem.css({"visibility":"hidden",display:'block'}).slideUp();
+            });
+            setTimeout(function(){
+                deleteItem.remove();
+            }, 800);
+            
         }
     });
 }
