@@ -76,7 +76,7 @@ $(function(){
         $('#email').html(email);
         var url2 = "img/" + image;
         $('#profielimgstudent').attr("src", url2);
-        var url = "url(../img/" + image;
+        var url = "url(../img/" + image +")";
         $('#blur').css("background-image", url);
         
     }
