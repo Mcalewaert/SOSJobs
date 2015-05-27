@@ -62,6 +62,7 @@ $(function(){
         var reg = data[studentID].reg_number;
         var study = data[studentID].field_of_study;
         var email = data[studentID].email;
+        var image = data[studentID].picture;
         
         $('#name').html(fullName);
         $('#birthdate').html(birthDate);
@@ -73,6 +74,9 @@ $(function(){
         $('#regNumber').html(reg);
         $('#study').html(study);
         $('#email').html(email);
+        $('#profielimgstudent').attr("src", image);
+        var url = "url(../img/" + image;
+        $('#blur').css("background-image", url);
         
     }
     
