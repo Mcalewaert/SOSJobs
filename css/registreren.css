@@ -7,7 +7,7 @@ img{
     width:120px;
     height:120px;
 }
-#knop{
+#registreerknop{
     background-color: #48CFAD;
     color:white;
     height:40px;
@@ -49,6 +49,17 @@ input{
     background-color: #f5f7fa;
     border: 1px solid #48CFAD;
     border-radius: 2px;
+    text-indent: 10px;
+}
+select{
+    display: block;
+    margin: 10px auto;
+    padding: 5px 0;
+    width: 90%;
+    font-size: 1em;
+    color: #48CFAD;
+    background-color: #f5f7fa;
+    border: 1px solid #48CFAD;
     text-indent: 10px;
 }
 

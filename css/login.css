@@ -18,6 +18,17 @@ input {
     text-indent: 10px;
     outline:none;
 }
+select{
+    display: block;
+    margin: 10px auto;
+    padding: 5px 0;
+    width: 90%;
+    font-size: 1em;
+    color: #48CFAD;
+    background-color: #f5f7fa;
+    border: 1px solid #48CFAD;
+    text-indent: 10px;
+}
 
 input.error {
     border: 1px solid #DA4453;
