@@ -7,7 +7,26 @@ jquery: true
 $(function(){
     var ID = localStorage.getItem("gebruikersID");
     var IDklant = parseInt(ID);
-    var studentID = IDklant;
+    var studentID = "";
+    if (IDklant == 1){
+        studentID = 0;
+    }
+    else if (IDklant == 2){
+        studentID = 1;
+    }
+    else if (IDklant == 6){
+        studentID = 4;
+    }
+    else if (IDklant == 9){
+        studentID = 7;
+    }
+    else if (IDklant == 5){
+        studentID = 3;
+    }
+    else{
+        console.log("error");
+    }
+    console.log(studentID);
     
     ophalenprofiel();
 
