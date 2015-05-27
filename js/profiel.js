@@ -74,7 +74,8 @@ $(function(){
         $('#regNumber').html(reg);
         $('#study').html(study);
         $('#email').html(email);
-        $('#profielimgstudent').attr("src", image);
+        var url2 = "img/" + image;
+        $('#profielimgstudent').attr("src", url2);
         var url = "url(../img/" + image;
         $('#blur').css("background-image", url);
         
