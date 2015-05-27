@@ -1,8 +1,10 @@
 $(function(){
     
     $.mobile.loading().hide();
-    
+    swipe();
 });
+
+
 
 function swipe(){
     
@@ -28,7 +30,6 @@ function swipe(){
             //console.log('CHANGE PAGE TO: ' + link );
             
             var vacid = $(this).parent().parent().attr('vacid');
-            console.log(vacid);
             
             localStorage.setItem("vacid",vacid);
             
@@ -116,4 +117,19 @@ function swipe(){
         
     });
     
-};
+    $('.delete').click(function(){
+        
+        var deleteVacature = $(this).parent().parent().parent().parent();
+        deleteVacature.fadeOut(500,function(){
+            deleteVacature.css({"visibility":"hidden",display:'block'}).slideUp();
+        });
+        setTimeout(function(){
+            deleteVacature.remove();
+        }, 800);
+        //deleteVacature.remove();
+        
+    });
+    
+   
+    
+}
