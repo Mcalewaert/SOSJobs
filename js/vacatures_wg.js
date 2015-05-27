@@ -28,6 +28,7 @@ function swipe(){
             //console.log('CHANGE PAGE TO: ' + link );
             
             var vacid = $(this).parent().parent().attr('vacid');
+            console.log(vacid);
             
             localStorage.setItem("vacid",vacid);
             
