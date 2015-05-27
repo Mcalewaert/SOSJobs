@@ -24,17 +24,17 @@ $(document).ready(function () {
         if(gebruiker == "Siemen Gijbels"){
             console.log("id6");
             localStorage.setItem("gebruikersID", 6);
-            link = "vacatures_WN.html";
+            link = "vacaturesWN.html";
         }
         else if(gebruiker == "Rachouan Rejeb"){
             console.log("id1");
             localStorage.setItem("gebruikersID", 1);
-            link = "vacatures_WN.html";
+            link = "vacaturesWN.html";
         }
         else if(gebruiker == "Jef Vastenavondt"){
             console.log("id2");
             localStorage.setItem("gebruikersID", 2);
-            link = "vacatures_WN.html";
+            link = "vacaturesWN.html";
         }
         else if(gebruiker == "Mathias De Coster"){
             console.log("id9");
